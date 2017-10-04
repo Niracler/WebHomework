@@ -1,0 +1,23 @@
+.small {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    width: 244px;
+    height: 111px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: white;
+}
+
+.big {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000;
+    background-color: #fafafa;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 405px;
+    width: 800px
+}
