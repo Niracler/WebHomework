@@ -1,0 +1,58 @@
+.tablist {
+    width: 900px;
+    height: 650px;
+    margin: 80px auto;
+    border: 2px solid red;
+}
+
+.tablist #tabs-1 {
+    width: 300px;
+    height: 80px;
+    border-bottom: 2px solid red;
+    float: left;
+    background: #adadad;
+}
+
+.tablist #tabs-2 {
+    width: 296px;
+    height: 80px;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    float: left;
+    background: #adadad;
+}
+
+.tablist #tabs-3 {
+    width: 300px;
+    height: 80px;
+    border-bottom: 2px solid red;
+    float: left;
+    background: #adadad;
+}
+
+#tabs-1:hover {
+    width: 300px;
+    height: 80px;
+    border-bottom: 2px solid #ffffff;
+    float: left;
+    background: #ffffff;
+}
+
+#tabs-2:hover {
+    width: 296px;
+    height: 80px;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid #ffffff;
+    background: #ffffff;
+    float: left;
+}
+
+#tabs-3:hover {
+    width: 300px;
+    height: 80px;
+    border-bottom: 2px solid #ffffff;
+    background: #ffffff;
+    float: left;
+}
