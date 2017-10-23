@@ -14,13 +14,7 @@ button.accordion.active, button.accordion:hover {
     background-color: #ccc;
 }
 
-div.panel01 {
-    padding: 0 18px;
-    background-color: white;
-    display: block;
-}
-
-div.panel02 {
+div.panel {
     padding: 0 18px;
     background-color: white;
     display: none;
@@ -31,4 +25,5 @@ div.panel02 {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+
 }
