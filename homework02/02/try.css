@@ -1,0 +1,9 @@
+.li_search {
+	width: 100px;
+	height: 30px;
+	list-style-type: none;
+	padding-top: 10px;/*内边框，因为没有垂直居中，，，*/
+	text-align: center;/*水平居中*/
+	margin: 5px;
+	float: left;
+}

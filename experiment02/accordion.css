@@ -21,7 +21,7 @@ div.panel {
 }
 
 /*最外面的盒子*/
-.holder {
+.accordion-holder {
     width: 600px;
     margin-left: auto;
     margin-right: auto;

@@ -2,7 +2,7 @@ ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
 /*最外面的盒子*/
-.holder {
+.accordion-holder {
     width: 400px;
     margin-top: -10px;
     margin-left: auto;
