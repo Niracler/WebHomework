@@ -1,0 +1,28 @@
+/*厉害的人，即使最外面的一个框也不需要绝对定位*/
+
+/*信息管理的框框*/
+.admin-holder{
+	width:70%;
+	overflow:hidden;
+	margin:auto;
+	background:#48D1CC;
+	border:3px solid #321789;
+}
+
+/*在设置了 width 或 height 的div中，写上overflow:hidden;的话，超出宽度或高度的部分，就隐藏了。*/
+
+
+#word-place{
+	width:50%;
+	overflow:hidden;
+	text-align:center;
+	margin:auto;
+}
+#content{
+	width:50%;
+	height:100px;
+	margin-left:25%;
+}
+.infor{
+	margin-left:35%;
+}
