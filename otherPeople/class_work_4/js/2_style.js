@@ -25,7 +25,7 @@ function check() {
     var i;
     var box = document.getElementById("box1");
     for (i = 0; i < 6; i++) {
-        if (box.checked) {
+        if (box.checked) {z
             number++;
         }
         var box = box.nextSibling;
