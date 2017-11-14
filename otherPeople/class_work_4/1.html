@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>小型计算器</title>
+	<!--引入外部文件的方式-->
+	<script type="text/javascript" src="js/1_style.js"></script>
+
+	</head>
+	<body>
+   		 <form>
+       		 <h>请输入两个数进行简单的运算</h><br/>
+       		 <input	type="text" name="num1" id="num1"/>
+       		 <select name="运算选择">
+       		 	<option value="+"> + </option>
+       		 	<option value="-"> - </option>
+       		 	<option value="*"> * </option>
+       		 	<option value="/"> / </option>
+       		 </select>
+       		 <input type="text"  id="num2"/>
+       		 <input type="button" value="=" onclick="getnumber()"/>
+       		 <input type="text" name="res" id="res"/>
+       		 
+   		 </form>
+	</body>
+</html>
+

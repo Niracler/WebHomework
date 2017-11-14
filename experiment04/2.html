@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="2.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="2.js"></script>
+    <title>档案</title>
+</head>
+<body>
+<div class="information-holder">
+    <div class="information">
+        <div class="information-top">
+            个人设置--个人资料
+        </div>
+        <br>
+
+        用户昵称：<input class="information-input-text" type="text" id="username"/>
+        <span id="tipMsg-username"></span><br><br>
+
+        个性签名：<input class="information-input-text" type="text" id="signature"/>
+        <span id="tipMsg-signature"></span><br><br>
+
+        性别：
+        <select id="gender" class="information-select">
+            <option value="0" selected="selected">请选择</option>
+            <option value="1">男</option>
+            <option value="2">女</option>
+        </select>
+        <span id="tipMsg-gender"></span><br><br>
+
+        兴趣爱好:
+        <input type="checkbox" name="hobby"/>阅读
+        <input type="checkbox" name="hobby"/>上网
+        <input type="checkbox" name="hobby"/>运动
+        <input type="checkbox" name="hobby"/>音乐
+        <input type="checkbox" name="hobby"/>影视
+        <input type="checkbox" name="hobby"/>旅游
+        <span id="tipMsg-hobby"></span>
+        <br><br>
+
+        电子邮件：<input class="information-input-text" type="text" id="email"/>
+            <span id="tipMsg-email"></span><br><br>
+
+        联系方式：<input class="information-input-text" type="text" id="relation"/>
+            <span id="tipMsg-relation"></span><br><br>
+
+        手机号码：<input class="information-input-text" type="text" id="tel"/>
+            <span id="tipMsg-tel"></span><br><br>
+
+        以上资料：
+        <input type="radio" name="k" checked/>完全公开
+        <input type="radio" name="k"/>仅好友可见
+        <input type="radio" name="k"/>完全保密<br/><br/>
+
+        <div class="information-bottom">
+            <input type="button" value="更新" onclick="check()"/>
+            <input type="button" value="清除"/>
+            <br/><br/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

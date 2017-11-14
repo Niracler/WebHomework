@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/2_style.css"/>
+    <script type="text/javascript" src="js/2_style.js"></script>
+    <title></title>
+
+</head>
+<body>
+<div class="newform">
+    <div id="top">
+        个人设置--个人资料
+    </div>
+    <div id="center">
+        <form action="">
+            <br/>
+            用户昵称：<input type="text" name="username" id="username"/>
+            <span id="newusername"></span><br/><br/>
+
+            个性签名：<input type="resert" name="signature" id="signature"/>
+            <span id="newsignature"></span><br/><br/>
+
+            性别：<select name="sex" id="sex">
+            <option id="inital" value="0" selected="selected">请选择</option>
+            <option id="man" value="1">男</option>
+            <option id="woman" value="2">女</option>
+        </select>
+            <span id="newsex"></span><br/><br/>
+
+            形象照片：<input type="file" name="photo" id="photo"/><br/><br/>
+            <span id="newphoto"></span>
+
+            兴趣爱好： <input type="checkbox" id="box1"/>阅读
+            <input type="checkbox" id="box2"/>上网
+            <input type="checkbox" id="box3"/>运动
+            <input type="checkbox" id="box4"/>音乐
+            <input type="checkbox" id="box5"/>影视
+            <input type="checkbox" id="box6"/>旅游
+            <span id="newhobby"></span><br/><br/>
+
+            电子邮件：<input type="text" name="email" id="email"/>
+            <span id="newemail"></span><br/><br/>
+
+            联系方式：<input type="text" name="relation" id="relation"/>
+            <span id="newrelation"></span><br/><br/>
+
+            手机号码：<input type="text" id="tel"/>
+            <span id="newtel"></span><br/><br/>
+
+            以上资料：<input type="radio" name="k" checked/>完全公开
+            <input type="radio" name="k"/>仅好友可见
+            <input type="radio" name="k"/>完全保密<br/><br/>
+            <!--name 相同时 radio  便只能选择一个-->
+        </form>
+    </div>
+    <div id="bottom">
+        <input type="button" value="更新" onclick="check()"/>
+        <input type="button" value="清除"/>
+        <br/><br/>
+    </div>
+</div>
+</body>
+</html>
