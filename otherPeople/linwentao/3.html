@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>实验3</title>
+		<link href="3.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<h3>留言窗口</h3>
+		<div class="divFrame">
+			 <div class="divMid" id="input">
+			 	  <h4>输入框</h4>
+			 	  <textarea clos="1000" rows="10" id="txt"></textarea>
+			 	  <input type="button" value="添加信息" onmouseup="textBlurOne(this)" />
+			 	  <input type="button" value="插入信息" onblur="textInsert(this)" />
+			 	  <input type="button" value="清空信息" onmouseup="textOver()">
+			 </div>
+		</div>
+	</body>
+<script type="text/javascript" src="3.js"></script>
+</html>

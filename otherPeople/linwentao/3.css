@@ -1,0 +1,43 @@
+h3{
+	margin-left:900px;
+	margin-right:auto;
+}
+
+.divFrame{
+	width:500px;
+	height:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+input{
+	width:100px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+
+.divMid{
+	width:480px;
+	height:500px;
+	border:solid;
+	margin-top:10px;
+	margin-left:0px;
+	margin-right:auto;
+	border-radius:10px;
+}
+
+h4{
+	margin-left:210px;
+	margin-right:auto;
+}
+
+textarea{
+	width:450px;
+	height:200px;
+	border:solid;
+	margin-left:10px;
+	margin-right:auto;
+	border-radius:10px;	
+}

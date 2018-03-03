@@ -8,7 +8,7 @@
 .calculator-holder {
 	margin-left: auto;
 	margin-right: auto;
-	width: 600px;
+	width: 700px;
 	height: 50px;
 	margin-top: 100px;
 }
@@ -30,7 +30,7 @@
 /*计算器中的输入框*/
 .calculator-input-text {
 	height: 86%;
-	width: 25%;
+	width: 20%;
 }
 
 /*计算器中的选择*/
