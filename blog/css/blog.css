@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -11,7 +11,6 @@
 
 body {
 	font-size: 14px;
-	font-family: "微软雅黑";
 }
 
 a:link, a:visited {
@@ -23,14 +22,14 @@ a:hover {
 	text-decoration: none;
 }
 
-/*nav*/
+/*导航栏*/
 #nav {
 	width: 100%;
 	background: #eeeeee;
 }
 
 .nav {
-	width: 980px;
+	width: 1200px;
 	height: 50px;
 	line-height: 35px;
 	margin: 0 auto;
@@ -55,7 +54,162 @@ a:hover {
 	background: #c6fffc;
 }
 
-/*banner*/
+.main {
+	width: 1200px;
+	height: 1500px;
+	margin: 0 auto;
+}
+
+/*左部分*/
+.primary {
+	width: 70%;
+	float: left;
+}
+
+/*右部分*/
+.secondary {
+	width: 30%;
+	height: 1000px;
+	float: left;
+}
+
+/*文章*/
+#article {
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 24px;
+	color: #585858;
+	padding: 40px 0;
+	border-bottom: 7px solid #ececec;
+}
+
+#article dl {
+	width: 980px;
+	height: 220px;
+}
+
+#article dt {
+	width: 145px;
+	height: 220px;
+	float: left;
+}
+
+#article dd {
+	width: 780px;
+	padding: 20px 0 0 0;
+	float: left;
+}
+
+#article .title {
+	font-size: 24px;
+	color: #060902;
+}
+
+#article .content {
+	color: #6b6862;
+	line-height: 24px;
+}
+
+/*学好英语——环境展示*/
+.imgbox {
+	width: 940px;
+	padding: 0 20px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.imgbox img {
+	width: 226px;
+	height: 129px;
+	padding: 2px;
+}
+
+.imgbox a {
+	margin-right: 20px;
+}
+
+/*英语课程特色*/
+#features {
+	width: 980px;
+	height: 565px;
+	margin: 0 auto;
+}
+
+/* Table切换 */
+.list0 {
+	width: 638px;
+	margin-top: 25px;
+	float: left;
+	position: relative;
+}
+
+/*登录*/
+.login {
+	width: 90%;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login h3 {
+	width: 100%;
+	font-size: 18px;
+}
+
+.login .biaodan {
+	width: 326px;
+	height: 200px;
+}
+
+.sign-in-button {
+	width: 90%;
+	font-size: 18px;
+	border: none;
+	border-radius: 25px;
+	color: #fff;
+	background: #3194d0;
+	cursor: pointer;
+	outline: none;
+	display: block;
+	clear: both;
+}
+
+.left {
+	width: 80px;
+	text-align: left;
+	font-size: 18px;
+}
+
+tr {
+	height: 50px;
+}
+
+td {
+	text-align: center;
+}
+
+/*表单*/
+input {
+	width: 204px;
+	height: 28px;
+	border: 1px solid #d2d2d2;
+}
+
+.course {
+	width: 204px;
+	height: 28px;
+	border: 1px solid #d2d2d2;
+	padding: 3px 0;
+}
+
+.calendar {
+	width: 100%;
+	height: 40%;
+}
+
 .banner {
 	width: 100%;
 	height: 580px;
@@ -106,225 +260,112 @@ a:hover {
 	margin-right: 20px;
 }
 
-/*学好英语*/
-#learn {
-	width: 980px;
-	margin: 0 auto;
-}
-
-h2 {
-	font-weight: 100;
-	font-size: 24px;
-	color: #585858;
-	padding: 40px 0;
-	border-bottom: 7px solid #ececec;
-}
-
-#learn dl {
-	width: 980px;
-	height: 220px;
-}
-
-#learn dt {
-	width: 145px;
-	height: 220px;
-	background: url(../images/learn.jpg) center center no-repeat;
-	float: left;
-}
-
-#learn dd {
-	width: 780px;
-	padding: 20px 0 0 30px;
-	float: left;
-}
-
-#learn .txt1 {
-	font-size: 24px;
-	color: #ffa800;
-}
-
-#learn .txt2 {
-	color: #6b6862;
-	line-height: 24px;
-}
-
-/*学好英语——环境展示*/
-.imgbox {
-	width: 940px;
-	padding: 0 20px;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-.imgbox img {
-	width: 226px;
-	height: 129px;
-	padding: 2px;
-}
-
-.imgbox a {
-	margin-right: 20px;
-}
-
-/*英语课程特色*/
-#features {
-	width: 980px;
-	height: 565px;
-	margin: 0 auto;
-}
-
-/* Table切换 */
-.list0 {
-	width: 638px;
-	margin-top: 25px;
-	float: left;
-	position: relative;
-}
-
-#SwitchBigPic {
-	border: 1px solid #ddd;
-}
-
-#SwitchBigPic span {
-	display: none;
-}
-
-#SwitchBigPic img {
-	width: 448px;
-	height: 375px;
-}
-
-#SwitchBigPic .sp {
-	display: block;
-}
-
-#SwitchNav {
-	width: 190px;
-	position: absolute;
-	top: 0px;
-	left: 447px;
-}
-
-#SwitchNav li {
-	width: 190px;
-	height: 125px;
-	margin-bottom: 1px;
-}
-
-#SwitchNav a {
-	display: block;
-	width: 190px;
-	height: 125px;
-	background: url(../images/txt_111_1.jpg) no-repeat;
-}
-
-#SwitchNav .txt_img2 {
-	background: url(../images/txt_222_2.jpg) no-repeat;
-}
-
-#SwitchNav .txt_img3 {
-	background: url(../images/txt_333_3.jpg) no-repeat;
-}
-
-#SwitchNav .txt_img1:hover {
-	background: url(../images/txt_111.jpg) no-repeat;
-}
-
-#SwitchNav .txt_img2:hover {
-	background: url(../images/txt_222.jpg) no-repeat;
-}
-
-#SwitchNav .txt_img3:hover {
-	background: url(../images/txt_333.jpg) no-repeat;
-}
-
-/*免费课程*/
-.list1 {
-	width: 326px;
-	height: 375px;
-	float: right;
-	margin-top: 25px;
-}
-
-.list1 h3 {
-	width: 326px;
-	height: 74px;
-	background: url(../images/zhuce.jpg) no-repeat;
-}
-
-.list1 .biaodan {
-	width: 326px;
-	height: 200px;
-}
-
-.left {
-	width: 80px;
-	text-align: right;
-	font-size: 18px;
-}
-
-tr {
-	height: 50px;
-}
-
-td {
-	text-align: center;
-}
-
-/*表单*/
-input {
-	width: 204px;
-	height: 28px;
-	border: 1px solid #d2d2d2;
-}
-
-.course {
-	width: 204px;
-	height: 28px;
-	border: 1px solid #d2d2d2;
-	padding: 3px 0;
-}
-
-.no_border {
-	border: none;
-	width: 222px;
-	height: 53px;
-	background: url(../images/btn.jpg) right top no-repeat;
-	margin-top: 30px;
-	cursor: pointer;
-}
-
-/*footer*/
 .footer {
 	width: 100%;
 	height: 60px;
 	line-height: 60px;
 	text-align: center;
-	background: #0373b9;
-	color: #FFF;
+	background: #eeeeee;
+	color: #000000;
 }
 
+.calendar .frame_Low {
+	width: 500px;
+	height: 300px;
+	border: 2px solid #DDD;
+	margin: auto;
+	border-radius: 5px;
+}
 
+.calendar .frame_Hight {
+	width: 500px;
+	height: 340px;
+	border: 2px solid #DDD;
+	margin: auto;
+	border-radius: 5px;
+}
 
+.calendar .top {
+	width: 495px;
+	height: 50px;
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 3px;
+	text-align: center;
+	line-height: 45px;
+}
 
+.calendar .left {
+	float: left;
+	background: url(../images/ui-icons_ffffff_256x240.png);
+	width: 18px;
+	height: 20px;
+	background-position: -79px -187px;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+}
 
+.calendar .right {
+	float: right;
+	background: url(../images/ui-icons_444444_256x240.png);
+	width: 18px;
+	height: 20px;
+	background-position: -47px -187px;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+}
 
+.calendar a:hover .calendar .left, a:hover .right {
+	border: 2px solid #DDDDDD;
+}
 
+.calendar #week li {
+	list-style-type: none;
+	float: left;
+	width: 67px;
+	height: 37px;
+	margin: 2px;
+	/*border: 1px solid #DDDDDD;*/
+	/*background-color: #DDDDDD;*/
+	text-align: center;
+	line-height: 40px;
+	font-weight: 600;
+}
 
+.calendar #data span {
+	float: left;
+	width: 63px;
+	height: 33px;
+	margin: 2px;
+	text-align: center;
+}
 
+.calendar .open {
+	background-color: #f0f0f0;
+	border: 2px solid #D4D4D4;
+}
 
+.calendar .close {
+	background-color: #fff;
+	border: 2px solid #fff;
+}
 
+.calendar .clicked {
+	background-color: yellow;
+	border: 2px solid #D4D4D4;
+}
 
+.slides {
+	height: 200px;
+	width: 100%;
+	background: red;
+}
 
-
-
-
-
-
-
-
-
-
+.mySlides {
+	height: 100%;
+	width: 100%;
+}
 
 
 

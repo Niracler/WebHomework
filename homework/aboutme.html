@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Niracler's Blog
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/article_base.css"/>
+
+
+</head>
+<body>
+
+<!--导航栏-->
+<div id="nav">
+    <ul class="nav">
+        <li><a href="home.html">首页</a></li>
+        <li><a href="blog.html">博客</a></li>
+        <li><a href="aboutme.html">关于这个项目</a></li>
+    </ul>
+</div>
+
+
+<div class="main">
+    <div class="primary">
+        <div class="posts">
+            <p> About Me 正在建设中 </p>
+            <img src="http://upload-images.jianshu.io/upload_images/4781155-74a50833771b286b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+        </div><!-- /.blog-post -->
+        <a>更多消息，请关注路人甲的学习记录</a>
+        <p style="font-size: 35px;">
+            <a style="color: #3194d0" href="https://github.com/Niracler/WebStudy">
+                项目网址
+            </a>
+        </p>
+    </div>
+    <div class="secondary">
+        <div class="login">
+            <h3>LOGIN</h3>
+            <form action="#" method="post" class="biaodan">
+                <table class="content">
+                    <tr>
+                        <td class="left">Username：</td>
+                        <td><input type="text" class="txt01"/></td>
+                    </tr>
+                    <tr>
+                        <td class="left">Password：</td>
+                        <td><input type="text" class="txt01"/></td>
+                    </tr>
+                    <tr>
+                        <td class="left">Adress：</td>
+                        <td>
+                            <select class="course">
+                                <option>where</option>
+                                <option>地球</option>
+                                <option>月球</option>
+                                <option>火星</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" name="commit" value="登录" class="sign-in-button" data-disable-with="登录">
+            </form>
+        </div>
+        <div class="calendar">
+            <div id="frame" class="frame_low">
+                <div class="top">
+                    <span class="left" onclick="preMonth()"></span>
+                    <span class="right" onclick="postMonth()"></span>
+                    <h2></h2>
+                </div>
+                <ul id="week">
+                    <li>Sun</li>
+                    <li>Mon</li>
+                    <li>Tue</li>
+                    <li>Wed</li>
+                    <li>The</li>
+                    <li>Fri</li>
+                    <li>Sat</li>
+                </ul>
+
+                <div id="data">
+                    <div class="firstLine">
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="Line">
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="Line">
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="Line">
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="Line">
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="lastLine">
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="slides">
+            <img class="mySlides" src="images/01.jpg">
+            <img class="mySlides" src="images/02.jpg">
+            <button onclick="plusDivs(-1)">&#10094;</button>
+            <button onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<script type="text/javascript" src="js/calendar.js"></script>
+<script type="text/javascript" src="js/blog.js"></script>
+
+
+
+</body>
+</html>

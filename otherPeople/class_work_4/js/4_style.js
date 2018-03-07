@@ -11,9 +11,9 @@ function addElementDiv() {
 　　　　div.setAttribute("name", "information");
 　	  div.setAttribute("ondblclick", "deletethis(this)");
 	  div.setAttribute("onclick", "changecss(this)");
-　　　　div.innerHTML = document.getElementById("content").value;
+　　　　div.innerHTML = document.getElementById("article").value;
 　　　　parent.appendChild(div);
-	  document.getElementById("content").value = "";
+	  document.getElementById("article").value = "";
 	  number++;
 }
 
@@ -22,7 +22,7 @@ function clearall(){
 	for(var i=0;i<number;i++){
 		names[i].innerHTML = "";
 	}
-	var content = document.getElementById("content");
+	var content = document.getElementById("article");
 		content.value = "";
 }
 
@@ -49,8 +49,8 @@ function insertDiv(){
 　　　　div.setAttribute("name", "information");
 　	  div.setAttribute("ondblclick", "deletethis(this)");
 	  div.setAttribute("onclick", "changecss(this)");
-　　　　div.innerHTML = document.getElementById("content").value;
-	  document.getElementById("content").value = "";
+　　　　div.innerHTML = document.getElementById("article").value;
+	  document.getElementById("article").value = "";
 	  number++;
 	if(newobj)
 		parent.insertBefore(div, newobj.nextSibling);

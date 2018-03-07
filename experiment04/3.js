@@ -41,8 +41,8 @@ function creatDiv() {
     div.setAttribute("onclick", "changecss(this)");
     div.setAttribute("onblur", "getDiv(this)");
     div.setAttribute("contenteditable","true");
-    div.innerHTML = document.getElementById("content").value;
-    document.getElementById("content").value = "";
+    div.innerHTML = document.getElementById("article").value;
+    document.getElementById("article").value = "";
     number++;
 
     return div;
@@ -73,7 +73,7 @@ function clearall() {
     for (var i = 0; i < number; i++) {
         names[i].innerHTML = "";
     }
-    var content = document.getElementById("content");
+    var content = document.getElementById("article");
     content.value = "";
 }
 
